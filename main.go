@@ -30,6 +30,7 @@ type AppSearchResult struct {
 	Title            string  `json:"title" csv:"title"`
 	Summary          string  `json:"summary" csv:"summary"`
 	DeveloperEmail   string  `json:"developerEmail" csv:"developerEmail"`
+	DeveloperWebsite string  `json:"developerWebsite" csv:"developerWebsite"`
 	DeveloperAddress string  `json:"developerAddress" csv:"developerAddress"`
 	MinInstalls      int     `json:"minInstalls" csv:"minInstalls"`
 	MaxInstalls      int     `json:"maxInstalls" csv:"maxInstalls"`
